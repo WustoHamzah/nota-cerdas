@@ -1,0 +1,29 @@
+name: nota_cerdas
+description: "Aplikasi Nota Cerdas terhubung database."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Ikon bawaan Flutter
+  cupertino_icons: ^1.0.8
+  
+  # --- TAMBAHAN UNTUK NOTA CERDAS ---
+  http: ^1.6.0                  # Untuk request API PHP
+  shared_preferences: ^2.5.6    # Untuk simpan sesi login
+  # ----------------------------------
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
